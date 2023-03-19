@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>engrenagem girando</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            justify-items: center;
+
+        }
+        .engrenagem{
+            top: 250px;
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            animation: gira 5s infinite;
+            
+            
+        }
+        @keyframes gira{
+            0%{rotate: 0deg;}
+            100%{rotate: 360deg;}
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class="engrenagem">
+        <img src="engrenagem.png" width="100" height="100">
+    </div>
+</body>
+</html>
